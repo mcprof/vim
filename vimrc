@@ -5,7 +5,9 @@ autocmd CursorHold,CursorHoldI * update
 set clipboard=unnamed
 command Lightm :silent exec "!source ~/mintty-colors-solarized/sol.light" | redraw!
 command Darkm :silent exec "!source ~/mintty-colors-solarized/sol.dark" | redraw!
-set t_Co=256
+"set t_Co=256
+"set termguicolors
+"colors solarized8
 "colors zenburn
 "syntax enable
 "set background=dark

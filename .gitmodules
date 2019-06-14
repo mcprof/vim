@@ -1,0 +1,15 @@
+[submodule "pack/my-plugins/start/goyo.vim"]
+	path = pack/my-plugins/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "pack/my-plugins/start/vim-pencil"]
+	path = pack/my-plugins/start/vim-pencil
+	url = https://github.com/reedes/vim-pencil.git
+[submodule "pack/my-plugins/start/seoul256.vim"]
+	path = pack/my-plugins/start/seoul256.vim
+	url = https://github.com/junegunn/seoul256.vim.git
+[submodule "pack/my-plugins/start/limelight.vim"]
+	path = pack/my-plugins/start/limelight.vim
+	url = https://github.com/junegunn/limelight.vim.git
+[submodule "pack/my-plugins/start/vim-solarized8"]
+	path = pack/my-plugins/start/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
