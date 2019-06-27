@@ -10,6 +10,3 @@
 [submodule "pack/my-plugins/start/limelight.vim"]
 	path = pack/my-plugins/start/limelight.vim
 	url = https://github.com/junegunn/limelight.vim.git
-[submodule "pack/my-plugins/start/vim-solarized8"]
-	path = pack/my-plugins/start/vim-solarized8
-	url = https://github.com/lifepillar/vim-solarized8.git

@@ -1,3 +1,4 @@
+set ffs=unix,dos
 map <Space> <Leader>
 
 let g:netrw_liststyle = 1
