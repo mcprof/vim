@@ -76,7 +76,7 @@ set number
 set splitbelow
 set splitright
 
-nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
 
 " Bind F5 to save file if modified and execute python script in a buffer.
 nnoremap <silent> <F5> :call SaveAndExecutePython()<CR><C-w>k
@@ -122,7 +122,7 @@ function! SaveAndExecutePython()
     %delete _
 
     " add the console output
-    silent execute ".!python " . shellescape(s:current_buffer_file_path, 1)
+    silent execute ".!python3 " . shellescape(s:current_buffer_file_path, 1)
 
     " resize window to content length
     " Note: This is annoying because if you print a lot of lines then your code buffer is forced to a height of one line every time you run this function.
