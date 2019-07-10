@@ -76,7 +76,7 @@ set number
 set splitbelow
 set splitright
 
-nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
+nnoremap <buffer> <F9> :w<cr>:exec '!python3' shellescape(@%, 1)<cr>
 
 " Bind F5 to save file if modified and execute python script in a buffer.
 nnoremap <silent> <F5> :call SaveAndExecutePython()<CR><C-w>k
