@@ -22,6 +22,7 @@ filetype plugin indent on       " load file type plugins + indentation
 
 "" Whitespace
 "set nowrap                      " don't wrap lines
+command! -nargs=* Wrap set wrap linebreak nolist
 set tabstop=4 shiftwidth=4      " a tab is two spaces (or set this to 4)
 set softtabstop=4
 set expandtab                   " use spaces, not tabs (optional)
@@ -66,10 +67,10 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
-    \ set textwidth=79 |
+    \ set textwidth=0 |
     \ set expandtab |
     \ set autoindent |
-"    \ set wrap |
+    \ set wrap linebreak nolist |
     \ set fileformat=unix
 
 set number
